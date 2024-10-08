@@ -92,7 +92,7 @@ namespace Project_1
                 return; // Exit if not confirmed
             }
 
-            // All validations passed, you can proceed with the submission logic
+            // All validations passed
             MessageBox.Show("All information submitted successfully.");
         }
 
