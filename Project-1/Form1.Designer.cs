@@ -161,7 +161,7 @@ namespace Project_1
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(212, 17);
             this.checkBox1.TabIndex = 18;
-            this.checkBox1.Text = ".All Information I have inputed is correct";
+            this.checkBox1.Text = "All Information I have inputed is correct.";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -185,7 +185,7 @@ namespace Project_1
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(133, 13);
             this.label6.TabIndex = 20;
-            this.label6.Text = "?Are you over 18 years old";
+            this.label6.Text = "Are you over 18 years old?";
             this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // checkedListBox2
@@ -208,7 +208,7 @@ namespace Project_1
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 13);
             this.label7.TabIndex = 22;
-            this.label7.Text = "?Preferred Shifts";
+            this.label7.Text = "Preferred Shifts?";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // pictureBox1
@@ -259,7 +259,7 @@ namespace Project_1
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Text = "Job Application Form";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

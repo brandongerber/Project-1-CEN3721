@@ -12,22 +12,22 @@ namespace Project_1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Any initialization code can go here
+        
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            // Handle text changed event if needed
+           
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            // Handle label click event if needed
+            
         }
 
         private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Handle checked list box selection changed event if needed
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -39,13 +39,13 @@ namespace Project_1
             textBox5.Clear();
             textBox6.Clear();
 
-            // Reset checked items in checkedListBox1 (Preferred Shift)
+            // (Preferred Shift)
             for (int i = 0; i < checkedListBox1.Items.Count; i++)
             {
                 checkedListBox1.SetItemChecked(i, false);
             }
 
-            // Reset checked items in checkedListBox2 (Age Verification)
+            // (Age Verification)
             for (int i = 0; i < checkedListBox2.Items.Count; i++)
             {
                 checkedListBox2.SetItemChecked(i, false);
